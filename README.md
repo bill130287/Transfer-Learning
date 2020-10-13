@@ -7,7 +7,7 @@ Transfer Learning for NIST digits(0-9) to NIST letters(a-j)
 ## Define
    * train.py: main function for training and transfer learning
    * predict.py: main function for prediction
-   * 可以自己用小畫家寫字母(128 * 128的尺寸)，然後再餵進model測試
+   * prediction: 自己用小畫家寫字母(128 * 128的尺寸)，然後再餵進modelpredict
    * train_model.h5: The CNN model for training digits.
    * transfer_train_model.h5: The CNN model for letters
    * summary_report.docx: About accuracy and model summary
